@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div class="col-6">
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="h4">id</th>
+            <th class="h4">Title</th>
+            <th class="h4">Launch year</th>
+            <th class="h4">Offers certificate</th>
+            <th class="h4">Description</th>
+            <th class="h4">Image</th>
+            <th class="h4">Duration hours</th>
+
+
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let c of cursos">
+            <td>
+              <dd>{{c.id}}</dd>
+            </td>
+            <td>
+              <dd>{{c.title}}</dd>
+            </td>
+            <td>
+              <dd>{{c.launc_year}}</dd>
+            </td>
+            <td>
+              <dd>{{c.offers_certificate}}</dd>
+            </td>
+            <td>
+                <dd>{{c.description}}</dd>
+              </td>
+              <td>
+                <dd>{{c.image}}</dd>
+              </td>
+              <td>
+                <dd>{{c.duration_hours}}</dd>
+              </td>
+        </tr>
+  
+  
+  
+  
+        </tbody>
+      </table>
+    </div>
+  </div>
